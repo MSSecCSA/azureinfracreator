@@ -1,5 +1,7 @@
 # Claude Development Instructions
 
+> **⭐ For comprehensive security architecture guidance, see [security-architecture-guide.md](security-architecture-guide.md)** - Created by microsoft-learn-researcher with 50+ Microsoft Learn citations.
+
 ## Core Principles
 
 ### 1. Code Quality Standards

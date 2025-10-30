@@ -8,6 +8,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Key Goals**: Security-first, user-friendly, extensible CLI for enterprise Azure infrastructure provisioning.
 
+> **⭐ IMPORTANT**: For comprehensive security architecture, cost optimization, and compliance guidance, see `.claude/instructions/security-architecture-guide.md` - This is your north star for all security and architecture decisions. Created by microsoft-learn-researcher with 50+ Microsoft Learn citations.
+
 ## Essential Commands
 
 ### Development
@@ -326,11 +328,14 @@ Test files mirror source structure:
 
 | Question | Reference |
 |----------|-----------|
+| **"How should I architect the security?"** | **`.claude/instructions/security-architecture-guide.md`** ⭐ |
 | "What are we building?" | `.claude/memory-bank/projectbrief.md` |
 | "What should I code next?" | `.claude/memory-bank/tasks.md` |
 | "How should I structure this?" | `.claude/memory-bank/techContext.md` |
 | "What code patterns to use?" | `.claude/instructions/claude-instructions.md` |
-| "Azure security best practices?" | `.claude/instructions/azure-best-practices.md` |
+| "Azure security best practices?" | `.claude/instructions/security-architecture-guide.md` (comprehensive) or `.claude/instructions/azure-best-practices.md` (detailed) |
+| "Cost optimization for resources?" | `.claude/instructions/security-architecture-guide.md` - Section 3 |
+| "Compliance mapping (CIS/PCI-DSS/HIPAA)?" | `.claude/instructions/security-architecture-guide.md` - Section 6 |
 | "How to build a CLI menu?" | `.claude/instructions/cli-development-guide.md` |
 | "How to approach a feature?" | `.claude/chatmodes/PLAN.md` |
 | "How to implement?" | `.claude/chatmodes/IMPLEMENT.md` |
@@ -404,9 +409,15 @@ Task: Phase 2.1 - Core Infrastructure
 
 ## Additional Resources
 
+### Primary References
+- **`.claude/instructions/security-architecture-guide.md`** ⭐ - Comprehensive security, cost, and compliance guide (50+ Microsoft Learn citations)
 - `.claude/README.md` - Claude Code integration overview
 - `.claude/memory-bank/` - Project context and tracking
-- `.claude/instructions/` - Detailed development guidance
+- `.claude/instructions/` - All development guidance and best practices
 - `README.md` - User-facing project documentation
+
+### External Resources
 - Azure Docs: https://docs.microsoft.com/azure/
 - Well-Architected Framework: https://docs.microsoft.com/azure/architecture/framework/
+- Azure Security Benchmark: https://learn.microsoft.com/security/benchmark/azure/
+- CIS Microsoft Azure Foundations Benchmark: https://www.cisecurity.org/cis-benchmarks/

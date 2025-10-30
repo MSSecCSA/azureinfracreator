@@ -97,6 +97,17 @@ Inspired by the [GitHub Copilot Agent Mode Starter Kit](https://github.com/bradc
 - Error handling and user feedback
 - Command structure examples
 
+**security-architecture-guide.md** ⭐ COMPREHENSIVE REFERENCE
+- Secure CLI architecture with Azure (from microsoft-learn-researcher)
+- Complete security implementation checklist (50+ items)
+- Cost optimization patterns for Azure resources
+- Code citation templates with Microsoft Learn links
+- CIS, PCI-DSS, HIPAA compliance mappings
+- 14-week implementation roadmap
+- Critical feedback on anti-patterns
+- 50+ direct citations to Microsoft Learn
+- **Start here for security decisions**
+
 ### Templates
 
 **PLANNING.template.md**
@@ -257,7 +268,11 @@ Does this meet our standards?"
 → `.claude/instructions/claude-instructions.md`
 
 **"How does Azure [resource] work securely?"**
-→ `.claude/instructions/azure-best-practices.md`
+→ `.claude/instructions/security-architecture-guide.md` (comprehensive)
+→ `.claude/instructions/azure-best-practices.md` (detailed patterns)
+
+**"What's the secure architecture for this CLI?"**
+→ `.claude/instructions/security-architecture-guide.md` - Start here
 
 **"How do I build the CLI?"**
 → `.claude/instructions/cli-development-guide.md`
